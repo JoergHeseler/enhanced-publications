@@ -1,0 +1,110 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": { "@id": "https://w3id.org/ro/crate/1.1" },
+      "about": { "@id": "./" }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Urban History 4D – Dresden",
+      "description": "Interaktive 4D-Webapplikation zur Visualisierung historischer Fotografien in Dresden",
+      "creator": {
+        "@id": "https://www.urbanhistory4d.org/"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "distribution": { "@id": "data/web_app/index.html" }
+    },
+
+    {
+      "@id": "data/web_app/index.html",
+      "@type": "SoftwareApplication",
+      "name": "4D Browser Web App",
+      "programmingLanguage": "JavaScript",
+      "requires": [
+        { "@id": "data/database/uhd4d.sql" },
+        { "@id": "data/maps/basemap_1900.tif" }
+      ],
+      "uses": [
+        { "@id": "data/buildings/building_0001.gltf" },
+        { "@id": "data/photos/photo_0001.tiff" }
+      ]
+    },
+
+    {
+      "@id": "data/photos/photo_0001.tiff",
+      "@type": "ImageObject",
+      "name": "Historisches Foto – Frauenkirche",
+      "contentLocation": "Dresden",
+      "license": "CC BY-SA 4.0",
+      "identifier": "df_hauptkatalog_0084634_120000000000001",
+      "isBasedOn": {
+        "@id": "http://www.deutschefotothek.de/documents/obj/80817531"
+      }
+    },
+
+    {
+      "@id": "data/buildings/building_0001.gltf",
+      "@type": "3DModel",
+      "name": "Gebäudemodell – Frauenkirche",
+      "description": "Virtuelle Rekonstruktion basierend auf historischen Fotografien",
+      "isDescribedBy": { "@id": "data/wikipedia/frauenkirche.pdf" }
+    },
+
+    {
+      "@id": "data/wikipedia/frauenkirche.pdf",
+      "@type": "DigitalDocument",
+      "name": "Wikipedia-Artikel – Frauenkirche",
+      "encodingFormat": "application/pdf"
+    },
+
+    {
+      "@id": "data/search/query_examples.txt",
+      "@type": "Text",
+      "name": "Beispiel-Suchbegriffe",
+      "description": "8 deutschsprachige Suchbegriffe zur Demonstration der EP-Funktion",
+      "about": [
+        "Frauenkirche",
+        "Altmarkt",
+        "Neumarkt",
+        "Schlossplatz",
+        "Zwinger",
+        "Brühlsche Terrasse",
+        "Wilsdruffer Straße",
+        "Elbufer"
+      ]
+    },
+
+    {
+      "@id": "data/visualizations/heatmaps/heatmap_frauenkirche.tiff",
+      "@type": "ImageObject",
+      "name": "Heatmap – Frauenkirche",
+      "isBasedOn": { "@id": "data/photos/photo_0001.tiff" }
+    },
+
+    {
+      "@id": "data/visualizations/vectors/vectors_frauenkirche.geojson",
+      "@type": "Dataset",
+      "name": "Vektorkarte – Frauenkirche",
+      "encodingFormat": "application/geo+json",
+      "derivedFrom": { "@id": "data/photos/photo_0001.tiff" }
+    },
+
+    {
+      "@id": "data/emulation/urbanhistory4d.qcow2",
+      "@type": "SoftwareEnvironment",
+      "name": "EaaSI Image – Urban History 4D",
+      "description": "Virtuelle Umgebung zur Bewahrung vollständiger Interaktion"
+    },
+
+    {
+      "@id": "data/interaction_video/interaction_dresden.mkv",
+      "@type": "VideoObject",
+      "name": "Videodokumentation der Interaktion",
+      "description": "Beweis für wissenschaftliche Funktionslogik"
+    }
+  ]
+}
