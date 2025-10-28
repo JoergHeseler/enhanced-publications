@@ -34,13 +34,14 @@
       "isPartOf": { "@id": "./" },
       "contentUrl": "http://www.deutschefotothek.de/documents/obj/80817531",
       "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/df_hauptkatalog_0084634/manifest.json",
+
+      "note": "Digitised 9x12cm glass negative, 600 dpi, 16 bit per channel, uncompressed TIFF with embedded ICC profile.",
       "preservationState": "preserved",
       "preservedIn": {
         "@id": "https://slubarchiv.slub-dresden.de",
         "name": "SLUBArchiv.digital",
         "identifier": "df_hauptkatalog_0084634_120000000000001"
-      },
-      "note": "Digitised 9x12cm glass negative, 600 dpi, 16 bit per channel, uncompressed TIFF with embedded ICC profile."
+      }
     },
 
     {
@@ -55,13 +56,14 @@
       "isPartOf": { "@id": "./" },
       "contentUrl": "http://www.deutschefotothek.de/documents/obj/80817431",
       "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/df_hauptkatalog_0041697/manifest.json",
+
+      "note": "Digitised 9x12cm glass negative, TIFF 16bit, 600 dpi, uncompressed, ICC profile embedded.",
       "preservationState": "preserved",
       "preservedIn": {
         "@id": "https://slubarchiv.slub-dresden.de",
         "name": "SLUBArchiv.digital",
         "identifier": "df_hauptkatalog_0041697_120000000000001"
-      },
-      "note": "Digitised 9x12cm glass negative, TIFF 16bit, 600 dpi, uncompressed, ICC profile embedded."
+      }
     },
 
     {
@@ -71,16 +73,17 @@
       "creator": "Andrea Kiehn",
       "dateCreated": "2013-05-11",
       "encodingFormat": "image/jpeg",
-      "plannedMigrationFormat": "image/tiff",
-      "migrationNote": "To be ingested as TIFF 16bit 600dpi ICC profile.",
       "spatialCoverage": "Dresden, Germany",
       "identifier": "tu_kg_0189515",
       "isPartOf": { "@id": "./" },
       "contentUrl": "http://www.deutschefotothek.de/documents/obj/90058526-tud",
       "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/tu_kg_0189515/manifest.json",
+
+      "note": "Born-digital photograph to be migrated to archival TIFF format prior to ingestion.",
       "preservationState": "pending",
-      "plannedSIP": "tu_kg_0189515_120000000000002",
-      "note": "Born-digital photograph to be migrated to archival TIFF format prior to ingestion."
+      "migrationNote": "To be ingested as TIFF 16bit 600dpi ICC profile.",
+      "plannedMigrationFormat": "image/tiff",
+      "plannedSIP": "tu_kg_0189515_120000000000002"
     },
 
     {
@@ -90,16 +93,17 @@
       "creator": "Andrea Kiehn",
       "dateCreated": "2013-05-11",
       "encodingFormat": "image/jpeg",
-      "plannedMigrationFormat": "image/tiff",
-      "migrationNote": "To be ingested as TIFF 16bit 600dpi ICC profile.",
       "spatialCoverage": "Dresden, Germany",
       "identifier": "tu_kg_0189510",
       "isPartOf": { "@id": "./" },
       "contentUrl": "http://www.deutschefotothek.de/documents/obj/90058521-tud",
       "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/tu_kg_0189510/manifest.json",
+
+      "note": "Born-digital photograph to be migrated to archival TIFF format prior to ingestion.",
       "preservationState": "pending",
-      "plannedSIP": "tu_kg_0189510_120000000000002",
-      "note": "Born-digital photograph to be migrated to archival TIFF format prior to ingestion."
+      "migrationNote": "To be ingested as TIFF 16bit 600dpi ICC profile.",
+      "plannedMigrationFormat": "image/tiff",
+      "plannedSIP": "tu_kg_0189510_120000000000002"
     }
   ]
 }
