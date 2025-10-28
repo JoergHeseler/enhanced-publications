@@ -10,101 +10,96 @@
     {
       "@id": "./",
       "@type": "Dataset",
-      "name": "Urban History 4D – Dresden",
-      "description": "Interaktive 4D-Webapplikation zur Visualisierung historischer Fotografien in Dresden",
-      "creator": {
-        "@id": "https://www.urbanhistory4d.org/"
-      },
+      "name": "UrbanHistory4D – City of Dresden 4D Browser Subcollection",
+      "description": "Subset of the UrbanHistory4D project focusing on Dresden city. Contains 3D models, maps and referenced photos from the Deutsche Fotothek.",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "distribution": { "@id": "data/web_app/index.html" }
-    },
-
-    {
-      "@id": "data/web_app/index.html",
-      "@type": "SoftwareApplication",
-      "name": "4D Browser Web App",
-      "programmingLanguage": "JavaScript",
-      "requires": [
-        { "@id": "data/database/uhd4d.sql" },
-        { "@id": "data/maps/basemap_1900.tif" }
-      ],
-      "uses": [
-        { "@id": "data/buildings/building_0001.gltf" },
-        { "@id": "data/photos/photo_0001.tiff" }
+      "hasPart": [
+        { "@id": "index.html" },
+        { "@id": "data/photos/photo_0001.tiff" },
+        { "@id": "data/photos/photo_0002.tiff" },
+        { "@id": "data/photos/photo_0003.tiff" },
+        { "@id": "data/photos/photo_0004.tiff" }
       ]
     },
 
     {
       "@id": "data/photos/photo_0001.tiff",
       "@type": "ImageObject",
-      "name": "Historisches Foto – Frauenkirche",
-      "contentLocation": "Dresden",
-      "license": "CC BY-SA 4.0",
-      "identifier": "df_hauptkatalog_0084634_120000000000001",
-      "isBasedOn": {
-        "@id": "http://www.deutschefotothek.de/documents/obj/80817531"
-      }
+      "name": "Salzgasse mit Frauenkirche",
+      "creator": "Unknown Photographer",
+      "dateCreated": "circa 1886",
+      "encodingFormat": "image/tiff",
+      "spatialCoverage": "Dresden, Germany",
+      "identifier": "df_hauptkatalog_0154396",
+      "isPartOf": { "@id": "./" },
+      "contentUrl": "http://www.deutschefotothek.de/documents/obj/80817531",
+      "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/df_hauptkatalog_0084634/manifest.json",
+      "preservationState": "preserved",
+      "preservedIn": {
+        "@id": "https://slubarchiv.slub-dresden.de",
+        "name": "SLUBArchiv.digital",
+        "identifier": "df_hauptkatalog_0084634_120000000000001"
+      },
+      "note": "Digitised 9x12cm glass negative, 600 dpi, 16 bit per channel, uncompressed TIFF with embedded ICC profile."
     },
 
     {
-      "@id": "data/buildings/building_0001.gltf",
-      "@type": "3DModel",
-      "name": "Gebäudemodell – Frauenkirche",
-      "description": "Virtuelle Rekonstruktion basierend auf historischen Fotografien",
-      "isDescribedBy": { "@id": "data/wikipedia/frauenkirche.pdf" }
-    },
-
-    {
-      "@id": "data/wikipedia/frauenkirche.pdf",
-      "@type": "DigitalDocument",
-      "name": "Wikipedia-Artikel – Frauenkirche",
-      "encodingFormat": "application/pdf"
-    },
-
-    {
-      "@id": "data/search/query_examples.txt",
-      "@type": "Text",
-      "name": "Beispiel-Suchbegriffe",
-      "description": "8 deutschsprachige Suchbegriffe zur Demonstration der EP-Funktion",
-      "about": [
-        "Frauenkirche",
-        "Altmarkt",
-        "Neumarkt",
-        "Schlossplatz",
-        "Zwinger",
-        "Brühlsche Terrasse",
-        "Wilsdruffer Straße",
-        "Elbufer"
-      ]
-    },
-
-    {
-      "@id": "data/visualizations/heatmaps/heatmap_frauenkirche.tiff",
+      "@id": "data/photos/photo_0002.tiff",
       "@type": "ImageObject",
-      "name": "Heatmap – Frauenkirche",
-      "isBasedOn": { "@id": "data/photos/photo_0001.tiff" }
+      "name": "Frauenkirche",
+      "creator": "Ermenegildo Antonio Donadini",
+      "dateCreated": "1887/1888",
+      "encodingFormat": "image/tiff",
+      "spatialCoverage": "Dresden, Germany",
+      "identifier": "df_hauptkatalog_0041697",
+      "isPartOf": { "@id": "./" },
+      "contentUrl": "http://www.deutschefotothek.de/documents/obj/80817431",
+      "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/df_hauptkatalog_0041697/manifest.json",
+      "preservationState": "preserved",
+      "preservedIn": {
+        "@id": "https://slubarchiv.slub-dresden.de",
+        "name": "SLUBArchiv.digital",
+        "identifier": "df_hauptkatalog_0041697_120000000000001"
+      },
+      "note": "Digitised 9x12cm glass negative, TIFF 16bit, 600 dpi, uncompressed, ICC profile embedded."
     },
 
     {
-      "@id": "data/visualizations/vectors/vectors_frauenkirche.geojson",
-      "@type": "Dataset",
-      "name": "Vektorkarte – Frauenkirche",
-      "encodingFormat": "application/geo+json",
-      "derivedFrom": { "@id": "data/photos/photo_0001.tiff" }
+      "@id": "data/photos/photo_0003.tiff",
+      "@type": "ImageObject",
+      "name": "Fassade zur Wilsdruffer Straße mit Gedenkstätte Busmannkapelle",
+      "creator": "Andrea Kiehn",
+      "dateCreated": "2013-05-11",
+      "encodingFormat": "image/jpeg",
+      "plannedMigrationFormat": "image/tiff",
+      "migrationNote": "To be ingested as TIFF 16bit 600dpi ICC profile.",
+      "spatialCoverage": "Dresden, Germany",
+      "identifier": "tu_kg_0189515",
+      "isPartOf": { "@id": "./" },
+      "contentUrl": "http://www.deutschefotothek.de/documents/obj/90058526-tud",
+      "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/tu_kg_0189515/manifest.json",
+      "preservationState": "pending",
+      "plannedSIP": "tu_kg_0189515_120000000000002",
+      "note": "Born-digital photograph to be migrated to archival TIFF format prior to ingestion."
     },
 
     {
-      "@id": "data/emulation/urbanhistory4d.qcow2",
-      "@type": "SoftwareEnvironment",
-      "name": "EaaSI Image – Urban History 4D",
-      "description": "Virtuelle Umgebung zur Bewahrung vollständiger Interaktion"
-    },
-
-    {
-      "@id": "data/interaction_video/interaction_dresden.mkv",
-      "@type": "VideoObject",
-      "name": "Videodokumentation der Interaktion",
-      "description": "Beweis für wissenschaftliche Funktionslogik"
+      "@id": "data/photos/photo_0004.tiff",
+      "@type": "ImageObject",
+      "name": "Fassade zur Wilsdruffer Straße mit Gedenkstätte Busmannkapelle",
+      "creator": "Andrea Kiehn",
+      "dateCreated": "2013-05-11",
+      "encodingFormat": "image/jpeg",
+      "plannedMigrationFormat": "image/tiff",
+      "migrationNote": "To be ingested as TIFF 16bit 600dpi ICC profile.",
+      "spatialCoverage": "Dresden, Germany",
+      "identifier": "tu_kg_0189510",
+      "isPartOf": { "@id": "./" },
+      "contentUrl": "http://www.deutschefotothek.de/documents/obj/90058521-tud",
+      "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/tu_kg_0189510/manifest.json",
+      "preservationState": "pending",
+      "plannedSIP": "tu_kg_0189510_120000000000002",
+      "note": "Born-digital photograph to be migrated to archival TIFF format prior to ingestion."
     }
   ]
 }
