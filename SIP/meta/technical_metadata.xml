@@ -1,0 +1,117 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": { "@id": "https://w3id.org/ro/crate/1.1" },
+      "about": { "@id": "./" }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "UrbanHistory4D – City of Dresden 4D Browser Subcollection",
+      "description": "Subset of the UrbanHistory4D project focusing on Dresden city. Contains 3D models, maps and referenced photos from the Deutsche Fotothek.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "hasPart": [
+        { "@id": "index.html" },
+        { "@id": "data/photos/photo_0001.tiff" },
+        { "@id": "data/photos/photo_0002.tiff" },
+        { "@id": "data/photos/photo_0003.tiff" },
+        { "@id": "data/photos/photo_0004.tiff" }
+      ]
+    },
+
+    {
+      "@id": "data/photos/photo_0001.tiff",
+      "@type": "ImageObject",
+      "name": "Salzgasse mit Frauenkirche",
+      "creator": "Unknown Photographer",
+      "dateCreated": "circa 1886",
+      "encodingFormat": "image/tiff",
+      "spatialCoverage": "Dresden, Germany",
+      "identifier": "df_hauptkatalog_0154396",
+      "isPartOf": { "@id": "./" },
+      "contentUrl": "http://www.deutschefotothek.de/documents/obj/80817531",
+      "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/df_hauptkatalog_0084634/manifest.json",
+
+      "note": "Digitised 9x12cm glass negative, 600 dpi, 16 bit per channel, uncompressed TIFF with embedded ICC profile.",
+      "preservationState": "preserved",
+      "preservationInfo": {
+        "@id": "http://www.deutschefotothek.de",
+        "isil": "DE-2396",
+        "name": "SLUBArchiv.digital",
+        "identifier": "df_hauptkatalog_0084634_120000000000001"
+      }
+    },
+
+    {
+      "@id": "data/photos/photo_0002.tiff",
+      "@type": "ImageObject",
+      "name": "Frauenkirche",
+      "creator": "Ermenegildo Antonio Donadini",
+      "dateCreated": "1887/1888",
+      "encodingFormat": "image/tiff",
+      "spatialCoverage": "Dresden, Germany",
+      "identifier": "df_hauptkatalog_0041697",
+      "isPartOf": { "@id": "./" },
+      "contentUrl": "http://www.deutschefotothek.de/documents/obj/80817431",
+      "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/df_hauptkatalog_0041697/manifest.json",
+
+      "note": "Digitised 9x12cm glass negative, TIFF 16bit, 600 dpi, uncompressed, ICC profile embedded.",
+      "preservationState": "preserved",
+      "preservationInfo": {
+        "@id": "http://www.deutschefotothek.de",
+        "isil": "DE-2396",
+        "name": "SLUBArchiv.digital",
+        "identifier": "df_hauptkatalog_0041697_120000000000001"
+      }
+    },
+
+    {
+      "@id": "data/photos/photo_0003.tiff",
+      "@type": "ImageObject",
+      "name": "Fassade zur Wilsdruffer Straße mit Gedenkstätte Busmannkapelle",
+      "creator": "Andrea Kiehn",
+      "dateCreated": "2013-05-11",
+      "encodingFormat": "image/jpeg",
+      "spatialCoverage": "Dresden, Germany",
+      "identifier": "tu_kg_0189515",
+      "isPartOf": { "@id": "./" },
+      "contentUrl": "http://www.deutschefotothek.de/documents/obj/90058526-tud",
+      "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/tu_kg_0189515/manifest.json",
+
+      "note": "Born-digital photograph to be migrated to archival TIFF format prior to ingestion.",
+      "preservationState": "pending",
+      "preservationInfo": {
+        "@id": "http://www.deutschefotothek.de",
+        "isil": "DE-2396",
+        "name": "SLUBArchiv.digital",
+        "identifier": "tu_kg_0189515_120000000000002"
+      }
+    },
+
+    {
+      "@id": "data/photos/photo_0004.tiff",
+      "@type": "ImageObject",
+      "name": "Fassade zur Wilsdruffer Straße mit Gedenkstätte Busmannkapelle",
+      "creator": "Andrea Kiehn",
+      "dateCreated": "2013-05-11",
+      "encodingFormat": "image/jpeg",
+      "spatialCoverage": "Dresden, Germany",
+      "identifier": "tu_kg_0189510",
+      "isPartOf": { "@id": "./" },
+      "contentUrl": "http://www.deutschefotothek.de/documents/obj/90058521-tud",
+      "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/tu_kg_0189510/manifest.json",
+
+      "note": "Born-digital photograph to be migrated to archival TIFF format prior to ingestion.",
+      "preservationState": "pending",
+      "preservationInfo": {
+        "@id": "http://www.deutschefotothek.de",
+        "isil": "DE-2396",
+        "name": "SLUBArchiv.digital",
+        "identifier": "tu_kg_0189515_120000000000002"
+      }
+    }
+  ]
+}
