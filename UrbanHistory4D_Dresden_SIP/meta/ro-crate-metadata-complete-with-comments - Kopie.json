@@ -53,6 +53,9 @@
       ]
     },
 
+    /* -----------------------------
+       META-VERZEICHNIS
+       ----------------------------- */
     {
       "@id": "meta/",
       "@type": "Dataset",
@@ -106,6 +109,9 @@
       "name": "Persistent identifiers and source links (e.g. DOIs, URIs, SIP-IDs)"
     },
 
+    /* -----------------------------
+       BAGIT-METADATEN IM ROOT
+       ----------------------------- */
     {
       "@id": "bagit.txt",
       "@type": "File",
@@ -143,6 +149,9 @@
       "name": "MD5 checksums for meta/ and root"
     },
 
+    /* -----------------------------
+       DATA/
+       ----------------------------- */
     {
       "@id": "data/",
       "@type": "Dataset",
@@ -166,6 +175,9 @@
       ]
     },
 
+    /* -----------------------------
+       WEBSITE
+       ----------------------------- */
     {
       "@id": "data/website/",
       "@type": "Dataset",
@@ -287,6 +299,9 @@
       "name": "Subtitle file for the tutorial video"
     },
 
+    /* -----------------------------
+       WEBAPP
+       ----------------------------- */
     {
       "@id": "data/webapp/",
       "@type": "Dataset",
@@ -307,6 +322,7 @@
       ]
     },
 
+    /* Fotos im SIP (noch nicht archiviert) */
     {
       "@id": "data/webapp/photos/",
       "@type": "Dataset",
@@ -359,6 +375,7 @@
       }
     },
 
+    /* Extern bereits archivierte Fotos 1 & 2 (ohne physische Kopie im SIP) */
     {
       "@id": "http://www.deutschefotothek.de/documents/obj/80817531",
       "@type": "ImageObject",
@@ -396,6 +413,7 @@
       }
     },
 
+    /* 3D-GEBÄUDE */
     {
       "@id": "data/webapp/buildings/",
       "@type": "Dataset",
@@ -420,6 +438,7 @@
       "name": "Texture for 3D model of building 0001"
     },
 
+    /* KARTEN (GEOTIFF) */
     {
       "@id": "data/webapp/maps/",
       "@type": "Dataset",
@@ -432,6 +451,7 @@
       "name": "Base map 0001 (GeoTIFF)"
     },
 
+    /* VERKNÜPFTE ARTIKEL */
     {
       "@id": "data/webapp/related_articles/",
       "@type": "Dataset",
@@ -444,6 +464,9 @@
       "name": "Related article 0001 (PDF/A-3, logical representation)"
     },
 
+    /* -----------------------------
+       INTERACTION VIDEO
+       ----------------------------- */
     {
       "@id": "data/interaction_video/",
       "@type": "Dataset",
@@ -462,6 +485,9 @@
       "name": "Subtitle file for the interaction video"
     },
 
+    /* -----------------------------
+       DATENBANK (SIARD)
+       ----------------------------- */
     {
       "@id": "data/database/",
       "@type": "Dataset",
@@ -474,6 +500,9 @@
       "name": "UrbanHistory4D database export (SIARD2)"
     },
 
+    /* -----------------------------
+       EMULATION
+       ----------------------------- */
     {
       "@id": "data/emulation/",
       "@type": "Dataset",
