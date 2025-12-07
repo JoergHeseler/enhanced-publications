@@ -1,4 +1,4 @@
-# SIP Example: UrbanHistory4D_Dresden_Enhanced_Publication_SIP
+# SIP Example: UrbanHistory4D_Dresden_Enhanced_Publication
 
 This repository contains a **demonstration-only Submission Information Package (SIP)** for the long-term digital preservation of the **UrbanHistory4D – City of Dresden Enhanced Publication**.
 
