@@ -1,83 +1,87 @@
 # SIP Example: UrbanHistory4D_Dresden_Enhanced_Publication_SIP
 
-This repository contains a complete Submission Information Package (SIP) for the long-term digital preservation of the **UrbanHistory4D – City of Dresden Enhanced Publication**, including the 4D Browser, 3D models, historical photographs, spatial datasets, database exports, and a virtualized WebGL application.
+This repository contains a **demonstration-only Submission Information Package (SIP)** for the long-term digital preservation of the **UrbanHistory4D – City of Dresden Enhanced Publication**.
+
+⚠️ **Important Note**  
+All files included in this SIP are **dummy / placeholder files**.  
+They contain **no original research data**, **no real UrbanHistory4D software**, and **no authentic media assets**.  
+The purpose of this repository is solely to **demonstrate the SIP structure and the RO-Crate metadata model** for educational and reference use.
 
 ## Background
 
-This SIP is part of the accompanying materials to the guideline  
-[**“Digitale Langzeitarchivierung von Enhanced Publications”**](https://doi.org/10.5281/zenodo.17476461),  
+This SIP accompanies the guideline:  
+[**“Digitale Langzeitarchivierung von Enhanced Publications”**](https://doi.org/10.5281/zenodo.17476461)  
 published within the NFDI4Culture community’s recommendations.
 
-It demonstrates how complex, multimodal research objects—here the UrbanHistory4D Enhanced Publication—can be packaged sustainably for long-term digital preservation. Components represented in this SIP include:
+It illustrates:
 
-- the 4D Browser web application,
-- glTF-based 3D models of historic buildings,
-- high-quality digitised and born-digital photographs,
-- GeoTIFF map layers,
-- a SIARD database export,
-- an emulated legacy browser environment (QCOW2),
-- accompanying documentation, articles, and media assets,
-- and semantic documentation via **RO-Crate 1.1**.
+- how a complex Enhanced Publication can be packaged as a **BagIt-based SIP**,  
+- how its components can be **semantically documented** using **RO-Crate 1.1**,  
+- how provenance, preservation state, and external archival links can be modelled,  
+- and how workflow examples for preserving multimodal research objects can be implemented.
+
+The SIP structure is therefore intended as a **teaching and demonstration resource**,  
+not as a functional reproduction of the original UrbanHistory4D system.
 
 ## Repository Contents
 
-The SIP is located in the folder:  
+The full SIP is located in:  
 [`UrbanHistory4D_Dresden_Enhanced_Publication_SIP`](./UrbanHistory4D_Dresden_Enhanced_Publication_SIP/)
 
-It contains:
+It includes the following **placeholder** components:
 
-### Web Application
+### Web Application (dummy content)
 `data/webapp/`
-- 3D building models (glTF + binary + textures)  
-- historical and contemporary photographs (TIFF)  
-- relational database export (`urbanhistory4d.siard`)  
-- emulation environment (`urbanhistory4d.qcow2`)  
-- browser capability record and run instructions  
-- interaction video (MKV)  
-- map layers (GeoTIFF)  
-- related PDF/A-3 articles
+- placeholder 3D building models (glTF + bin + textures)  
+- placeholder photographs (TIFF)  
+- dummy SIARD database export  
+- dummy emulation environment (`urbanhistory4d.qcow2`)  
+- placeholder map layers (GeoTIFF)  
+- example video (MKV, dummy)  
+- placeholder PDF/A-3 articles  
 
-### Project Website
+### Project Website (dummy static HTML)
 `data/website/`
-- reduced and preservable HTML5 version  
-- images, logos, and embedded tutorial video  
-- partner, workshop, and project description pages  
+- reduced and preservable static HTML5 version (structure only)  
+- placeholder images and video  
+- project description, partner, and workshop pages  
 
 ### Metadata
 `meta/`
-- rights information  
+- rights metadata (example)  
 - provenance links  
-- technical metadata (e.g., PREMIS)
+- technical metadata (PREMIS-inspired)
 
-### Semantic Documentation
-- **`ro-crate-metadata.json`** – machine-actionable RO-Crate 1.1 description of all components
+### Semantic Documentation (core of this repository)
+- **`ro-crate-metadata.json`** – complete demonstration of RO-Crate 1.1 modelling  
+  describing the full SIP structure, preservation states, and interrelations.
 
 ### BagIt Structure
 Includes:
 - `bag-info.txt`  
 - `bagit.txt`  
-- manifest and tagmanifest files (MD5 + SHA-256)
+- `manifest-md5.txt`, `manifest-sha256.txt`  
+- tagmanifests for metadata and root directory
+
+This provides a fully valid **BagIt + RO-Crate demonstrator**.
+
+## Purpose of the Dummy Files
+
+Using placeholder files ensures:
+
+- no licensing or copyright issues,
+- a lightweight and shareable repository,
+- full transparency of the preservation modelling,
+- easy reuse of the SIP structure in training and tooling contexts,
+- focus on the **RO-Crate metadata**, which is the main subject of this example.
 
 ## Related Projects
 
-- **UrbanHistory4D**  
+- **UrbanHistory4D (original project)**  
   https://urbanhistory4d.org/
 
-- **NFDI4Culture – Reference Implementations for 3D/Enhanced Publications**  
+- **NFDI4Culture – Reference Implementations for 3D & Enhanced Publications**  
   https://git.slub-dresden.de/nfdi4culturedigitalpreservation/
-
-- **Guideline Repository: Digitale Langzeitarchivierung von Enhanced Publications**  
-  https://github.com/nfdi4culture/enhanced-publications-lza-guideline
-
-## Acknowledgments
-
-This SIP was created with support from:
-
-- **SLUB Dresden**, Division for Infrastructure and Long-Term Availability  
-- the **UrbanHistory4D research group**, for providing data, software, and documentation  
-- colleagues from **NFDI4Culture** in Dresden and Heidelberg, for technical feedback and preservation expertise  
-
-Their contributions to workflow modelling, preservation validation, and technical review are gratefully acknowledged.
 
 ## Imprint
 
@@ -86,9 +90,3 @@ Funded by the German Research Foundation (DFG), Project No. [441958017](https://
 
 **Author:** [Jörg Heseler](https://orcid.org/0000-0002-1497-627X)  
 **License:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-
-### Licensing Notes
-
-Licensing conditions follow the statements in `meta/rights.xml` and in the RO-Crate metadata.  
-Historical photographs are provided by **Deutsche Fotothek / SLUBArchiv.digital**, with identifiers and IIIF references preserved in the SIP.  
-3D models, maps, and software components originate from the UrbanHistory4D project and are included for preservation and research purposes.
