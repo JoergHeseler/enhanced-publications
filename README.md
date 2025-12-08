@@ -48,7 +48,7 @@ It includes the following **placeholder** components:
  
 ### Semantic Documentation (core of this repository)
 `data/`
-- [**`ro-crate-metadata.json`**](./data/ro-crate-metadata.json) – complete demonstration of RO-Crate 1.1 modelling  
+- [**`ro-crate-metadata.json`**](./UrbanHistory4D_Dresden_Enhanced_Publication_SIP/data/ro-crate-metadata.json) – complete demonstration of RO-Crate 1.1 modelling  
   describing the full SIP structure, preservation states, and interrelations.
  
 ### Metadata
