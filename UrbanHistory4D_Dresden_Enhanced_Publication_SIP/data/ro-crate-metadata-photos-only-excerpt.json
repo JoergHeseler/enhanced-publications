@@ -14,16 +14,16 @@
       "description": "Subset of the UrbanHistory4D project focusing on Dresden city. Contains 3D models, maps and referenced photos from the Deutsche Fotothek.",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "hasPart": [
-        { "@id": "data/website/index.html" },
-        { "@id": "data/photos/photo_0001.tiff" },
-        { "@id": "data/photos/photo_0002.tiff" },
-        { "@id": "data/photos/photo_0003.tiff" },
-        { "@id": "data/photos/photo_0004.tiff" }
+        { "@id": "website/index.html" },
+        { "@id": "photos/photo_0001.tiff" },
+        { "@id": "photos/photo_0002.tiff" },
+        { "@id": "photos/photo_0003.tiff" },
+        { "@id": "photos/photo_0004.tiff" }
       ]
     },
 
     {
-      "@id": "data/photos/photo_0001.tiff",
+      "@id": "photos/photo_0001.tiff",
       "@type": "ImageObject",
       "name": "Salzgasse mit Frauenkirche",
       "creator": "Unknown Photographer",
@@ -46,7 +46,7 @@
     },
 
     {
-      "@id": "data/photos/photo_0002.tiff",
+      "@id": "photos/photo_0002.tiff",
       "@type": "ImageObject",
       "name": "Frauenkirche",
       "creator": "Ermenegildo Antonio Donadini",
@@ -69,7 +69,7 @@
     },
 
     {
-      "@id": "data/photos/photo_0003.tiff",
+      "@id": "photos/photo_0003.tiff",
       "@type": "ImageObject",
       "name": "Fassade zur Wilsdruffer Straße mit Gedenkstätte Busmannkapelle",
       "creator": "Andrea Kiehn",
@@ -92,7 +92,7 @@
     },
 
     {
-      "@id": "data/photos/photo_0004.tiff",
+      "@id": "photos/photo_0004.tiff",
       "@type": "ImageObject",
       "name": "Fassade zur Wilsdruffer Straße mit Gedenkstätte Busmannkapelle",
       "creator": "Andrea Kiehn",

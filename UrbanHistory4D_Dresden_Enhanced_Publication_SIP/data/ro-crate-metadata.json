@@ -19,36 +19,15 @@
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "hasPart": [
         {
-          "@id": "data/webapp/"
+          "@id": "webapp/"
         },
         {
-          "@id": "data/website/"
-        },
-        {
-          "@id": "meta/"
-        },
-        {
-          "@id": "bag-info.txt"
-        },
-        {
-          "@id": "bagit.txt"
-        },
-        {
-          "@id": "manifest-md5.txt"
-        },
-        {
-          "@id": "manifest-sha256.txt"
-        },
-        {
-          "@id": "tagmanifest-md5.txt"
-        },
-        {
-          "@id": "tagmanifest-sha256.txt"
+          "@id": "website/"
         }
       ]
     },
     {
-      "@id": "data/webapp/",
+      "@id": "webapp/",
       "@type": "Dataset",
       "name": "UrbanHistory4D 4D Browser Web App (Dresden)",
       "isPartOf": {
@@ -56,30 +35,30 @@
       },
       "hasPart": [
         {
-          "@id": "data/webapp/buildings/"
+          "@id": "webapp/buildings/"
         },
         {
-          "@id": "data/webapp/database/"
+          "@id": "webapp/database/"
         },
         {
-          "@id": "data/webapp/emulation/"
+          "@id": "webapp/emulation/"
         },
         {
-          "@id": "data/webapp/interaction_video/"
+          "@id": "webapp/interaction_video/"
         },
         {
-          "@id": "data/webapp/maps/"
+          "@id": "webapp/maps/"
         },
         {
-          "@id": "data/webapp/photos/"
+          "@id": "webapp/photos/"
         },
         {
-          "@id": "data/webapp/related_articles/"
+          "@id": "webapp/related_articles/"
         }
       ]
     },
     {
-      "@id": "data/website/",
+      "@id": "website/",
       "@type": "Dataset",
       "name": "UrbanHistory4D Projektwebsite (reduzierte HTML5-Version)",
       "isPartOf": {
@@ -87,227 +66,208 @@
       },
       "hasPart": [
         {
-          "@id": "data/website/assets/"
+          "@id": "website/assets/"
         },
         {
-          "@id": "data/website/index.html"
+          "@id": "website/index.html"
         },
         {
-          "@id": "data/website/about.html"
+          "@id": "website/about.html"
         },
         {
-          "@id": "data/website/contact.html"
+          "@id": "website/contact.html"
         },
         {
-          "@id": "data/website/explore4d.html"
+          "@id": "website/explore4d.html"
         },
         {
-          "@id": "data/website/partners.html"
+          "@id": "website/partners.html"
         },
         {
-          "@id": "data/website/publications.html"
+          "@id": "website/publications.html"
         },
         {
-          "@id": "data/website/workshop.html"
+          "@id": "website/workshop.html"
         }
       ]
     },
     {
-      "@id": "meta/",
-      "@type": "Dataset",
-      "name": "Metadatenverzeichnis des SIP",
-      "isPartOf": {
-        "@id": "./"
-      },
-      "hasPart": [
-        {
-          "@id": "meta/rights.xml"
-        },
-        {
-          "@id": "meta/source_links.json"
-        },
-        {
-          "@id": "meta/technical_metadata.xml"
-        }
-      ]
-    },
-    {
-      "@id": "data/webapp/buildings/",
+      "@id": "webapp/buildings/",
       "@type": "Dataset",
       "name": "3D-Modelle rekonstruierter Architektur (glTF)",
       "isPartOf": {
-        "@id": "data/webapp/"
+        "@id": "webapp/"
       },
       "hasPart": [
         {
-          "@id": "data/webapp/buildings/building_0001/building_0001.gltf"
+          "@id": "webapp/buildings/building_0001/building_0001.gltf"
         },
         {
-          "@id": "data/webapp/buildings/building_0001/building_0001.bin"
+          "@id": "webapp/buildings/building_0001/building_0001.bin"
         },
         {
-          "@id": "data/webapp/buildings/building_0001/building_0001.png"
+          "@id": "webapp/buildings/building_0001/building_0001.png"
         },
         {
-          "@id": "data/webapp/buildings/building_0002/building_0002.gltf"
+          "@id": "webapp/buildings/building_0002/building_0002.gltf"
         },
         {
-          "@id": "data/webapp/buildings/building_0002/building_0002.bin"
+          "@id": "webapp/buildings/building_0002/building_0002.bin"
         },
         {
-          "@id": "data/webapp/buildings/building_0002/building_0002.png"
+          "@id": "webapp/buildings/building_0002/building_0002.png"
         }
       ]
     },
     {
-      "@id": "data/webapp/database/",
+      "@id": "webapp/database/",
       "@type": "Dataset",
       "name": "Datenbankexport der UrbanHistory4D-Applikation",
       "isPartOf": {
-        "@id": "data/webapp/"
+        "@id": "webapp/"
       },
       "hasPart": [
         {
-          "@id": "data/webapp/database/urbanhistory4d.siard"
+          "@id": "webapp/database/urbanhistory4d.siard"
         }
       ]
     },
     {
-      "@id": "data/webapp/emulation/",
+      "@id": "webapp/emulation/",
       "@type": "Dataset",
       "name": "Emulationsumgebung (QCOW2) und Dokumentation",
       "isPartOf": {
-        "@id": "data/webapp/"
+        "@id": "webapp/"
       },
       "hasPart": [
         {
-          "@id": "data/webapp/emulation/urbanhistory4d.qcow2"
+          "@id": "webapp/emulation/urbanhistory4d.qcow2"
         },
         {
-          "@id": "data/webapp/emulation/run_instructions.txt"
+          "@id": "webapp/emulation/run_instructions.txt"
         },
         {
-          "@id": "data/webapp/emulation/browser_version.txt"
+          "@id": "webapp/emulation/browser_version.txt"
         }
       ]
     },
     {
-      "@id": "data/webapp/interaction_video/",
+      "@id": "webapp/interaction_video/",
       "@type": "Dataset",
       "name": "Videodokumentation der Interaktion",
       "isPartOf": {
-        "@id": "data/webapp/"
+        "@id": "webapp/"
       },
       "hasPart": [
         {
-          "@id": "data/webapp/interaction_video/interaction_dresden.mkv"
+          "@id": "webapp/interaction_video/interaction_dresden.mkv"
         }
       ]
     },
     {
-      "@id": "data/webapp/maps/",
+      "@id": "webapp/maps/",
       "@type": "Dataset",
       "name": "Kartenmaterial (GeoTIFF)",
       "isPartOf": {
-        "@id": "data/webapp/"
+        "@id": "webapp/"
       },
       "hasPart": [
         {
-          "@id": "data/webapp/maps/base_map_0001.tif"
+          "@id": "webapp/maps/base_map_0001.tif"
         },
         {
-          "@id": "data/webapp/maps/base_map_0002.tif"
+          "@id": "webapp/maps/base_map_0002.tif"
         }
       ]
     },
     {
-      "@id": "data/webapp/photos/",
+      "@id": "webapp/photos/",
       "@type": "Dataset",
       "name": "Wissenschaftlich relevante Fotos (TIFF)",
       "isPartOf": {
-        "@id": "data/webapp/"
+        "@id": "webapp/"
       },
       "hasPart": [
         {
-          "@id": "data/webapp/photos/photo_0001.tiff"
+          "@id": "webapp/photos/photo_0001.tiff"
         },
         {
-          "@id": "data/webapp/photos/photo_0002.tiff"
+          "@id": "webapp/photos/photo_0002.tiff"
         },
         {
-          "@id": "data/webapp/photos/photo_0003.tiff"
+          "@id": "webapp/photos/photo_0003.tiff"
         },
         {
-          "@id": "data/webapp/photos/photo_0004.tiff"
+          "@id": "webapp/photos/photo_0004.tiff"
         }
       ]
     },
     {
-      "@id": "data/webapp/related_articles/",
+      "@id": "webapp/related_articles/",
       "@type": "Dataset",
       "name": "Zugehörige Artikel (PDF/A-3)",
       "isPartOf": {
-        "@id": "data/webapp/"
+        "@id": "webapp/"
       },
       "hasPart": [
         {
-          "@id": "data/webapp/related_articles/article_0001.pdf"
+          "@id": "webapp/related_articles/article_0001.pdf"
         },
         {
-          "@id": "data/webapp/related_articles/article_0002.pdf"
+          "@id": "webapp/related_articles/article_0002.pdf"
         }
       ]
     },
     {
-      "@id": "data/website/assets/",
+      "@id": "website/assets/",
       "@type": "Dataset",
       "name": "Website-Assets (Bilder, Video)",
       "isPartOf": {
-        "@id": "data/website/"
+        "@id": "website/"
       },
       "hasPart": [
         {
-          "@id": "data/website/assets/images/"
+          "@id": "website/assets/images/"
         },
         {
-          "@id": "data/website/assets/video/"
+          "@id": "website/assets/video/"
         }
       ]
     },
     {
-      "@id": "data/website/assets/images/",
+      "@id": "website/assets/images/",
       "@type": "Dataset",
       "name": "Website-Bilder & Logos",
       "isPartOf": {
-        "@id": "data/website/assets/"
+        "@id": "website/assets/"
       },
       "hasPart": [
         {
-          "@id": "data/website/assets/images/image_0001.png"
+          "@id": "website/assets/images/image_0001.png"
         },
         {
-          "@id": "data/website/assets/images/image_0002.png"
+          "@id": "website/assets/images/image_0002.png"
         }
       ]
     },
     {
-      "@id": "data/website/assets/video/",
+      "@id": "website/assets/video/",
       "@type": "Dataset",
       "name": "Eingebettetes Tutorial-Video",
       "isPartOf": {
-        "@id": "data/website/assets/"
+        "@id": "website/assets/"
       },
       "hasPart": [
         {
-          "@id": "data/website/assets/video/subtitles.vtt"
+          "@id": "website/assets/video/subtitles.vtt"
         },
         {
-          "@id": "data/website/assets/video/tutorial_video.mkv"
+          "@id": "website/assets/video/tutorial_video.mkv"
         }
       ]
     },
     {
-      "@id": "data/webapp/buildings/building_0001/building_0001.gltf",
+      "@id": "webapp/buildings/building_0001/building_0001.gltf",
       "@type": [
         "File",
         "3DModel"
@@ -315,20 +275,20 @@
       "name": "3D-Modell Gebäude 0001 (Dresden)",
       "encodingFormat": "model/gltf+json",
       "isPartOf": {
-        "@id": "data/webapp/buildings/"
+        "@id": "webapp/buildings/"
       }
     },
     {
-      "@id": "data/webapp/buildings/building_0001/building_0001.bin",
+      "@id": "webapp/buildings/building_0001/building_0001.bin",
       "@type": "File",
       "name": "Binärdaten 3D-Modell Gebäude 0001",
       "encodingFormat": "application/octet-stream",
       "isPartOf": {
-        "@id": "data/webapp/buildings/"
+        "@id": "webapp/buildings/"
       }
     },
     {
-      "@id": "data/webapp/buildings/building_0001/building_0001.png",
+      "@id": "webapp/buildings/building_0001/building_0001.png",
       "@type": [
         "File",
         "ImageObject"
@@ -336,11 +296,11 @@
       "name": "Textur 3D-Modell Gebäude 0001",
       "encodingFormat": "image/png",
       "isPartOf": {
-        "@id": "data/webapp/buildings/"
+        "@id": "webapp/buildings/"
       }
     },
     {
-      "@id": "data/webapp/buildings/building_0002/building_0002.gltf",
+      "@id": "webapp/buildings/building_0002/building_0002.gltf",
       "@type": [
         "File",
         "3DModel"
@@ -348,20 +308,20 @@
       "name": "3D-Modell Gebäude 0002 (Dresden)",
       "encodingFormat": "model/gltf+json",
       "isPartOf": {
-        "@id": "data/webapp/buildings/"
+        "@id": "webapp/buildings/"
       }
     },
     {
-      "@id": "data/webapp/buildings/building_0002/building_0002.bin",
+      "@id": "webapp/buildings/building_0002/building_0002.bin",
       "@type": "File",
       "name": "Binärdaten 3D-Modell Gebäude 0002",
       "encodingFormat": "application/octet-stream",
       "isPartOf": {
-        "@id": "data/webapp/buildings/"
+        "@id": "webapp/buildings/"
       }
     },
     {
-      "@id": "data/webapp/buildings/building_0002/building_0002.png",
+      "@id": "webapp/buildings/building_0002/building_0002.png",
       "@type": [
         "File",
         "ImageObject"
@@ -369,20 +329,20 @@
       "name": "Textur 3D-Modell Gebäude 0002",
       "encodingFormat": "image/png",
       "isPartOf": {
-        "@id": "data/webapp/buildings/"
+        "@id": "webapp/buildings/"
       }
     },
     {
-      "@id": "data/webapp/database/urbanhistory4d.siard",
+      "@id": "webapp/database/urbanhistory4d.siard",
       "@type": "File",
       "name": "UrbanHistory4D-Datenbank (SIARD-Archiv)",
       "encodingFormat": "application/siard",
       "isPartOf": {
-        "@id": "data/webapp/database/"
+        "@id": "webapp/database/"
       }
     },
     {
-      "@id": "data/webapp/emulation/urbanhistory4d.qcow2",
+      "@id": "webapp/emulation/urbanhistory4d.qcow2",
       "@type": [
         "File",
         "SoftwareApplication"
@@ -390,29 +350,29 @@
       "name": "Emulations-Image der UrbanHistory4D-Umgebung (QCOW2)",
       "encodingFormat": "application/x-qemu-disk",
       "isPartOf": {
-        "@id": "data/webapp/emulation/"
+        "@id": "webapp/emulation/"
       }
     },
     {
-      "@id": "data/webapp/emulation/run_instructions.txt",
+      "@id": "webapp/emulation/run_instructions.txt",
       "@type": "File",
       "name": "Startanleitung für Emulationsumgebung",
       "encodingFormat": "text/plain",
       "isPartOf": {
-        "@id": "data/webapp/emulation/"
+        "@id": "webapp/emulation/"
       }
     },
     {
-      "@id": "data/webapp/emulation/browser_version.txt",
+      "@id": "webapp/emulation/browser_version.txt",
       "@type": "File",
       "name": "Dokumentation der Browser- und WebGL-Fähigkeiten",
       "encodingFormat": "text/plain",
       "isPartOf": {
-        "@id": "data/webapp/emulation/"
+        "@id": "webapp/emulation/"
       }
     },
     {
-      "@id": "data/webapp/interaction_video/interaction_dresden.mkv",
+      "@id": "webapp/interaction_video/interaction_dresden.mkv",
       "@type": [
         "File",
         "MediaObject"
@@ -420,11 +380,11 @@
       "name": "Interaktionsvideo UrbanHistory4D – Dresden",
       "encodingFormat": "video/x-matroska",
       "isPartOf": {
-        "@id": "data/webapp/interaction_video/"
+        "@id": "webapp/interaction_video/"
       }
     },
     {
-      "@id": "data/webapp/maps/base_map_0001.tif",
+      "@id": "webapp/maps/base_map_0001.tif",
       "@type": [
         "File",
         "ImageObject"
@@ -433,11 +393,11 @@
       "encodingFormat": "image/tiff",
       "spatialCoverage": "Dresden, Germany",
       "isPartOf": {
-        "@id": "data/webapp/maps/"
+        "@id": "webapp/maps/"
       }
     },
     {
-      "@id": "data/webapp/maps/base_map_0002.tif",
+      "@id": "webapp/maps/base_map_0002.tif",
       "@type": [
         "File",
         "ImageObject"
@@ -446,11 +406,11 @@
       "encodingFormat": "image/tiff",
       "spatialCoverage": "Dresden, Germany",
       "isPartOf": {
-        "@id": "data/webapp/maps/"
+        "@id": "webapp/maps/"
       }
     },
     {
-      "@id": "data/webapp/photos/photo_0001.tiff",
+      "@id": "webapp/photos/photo_0001.tiff",
       "@type": [
         "File",
         "ImageObject"
@@ -462,7 +422,7 @@
       "spatialCoverage": "Dresden, Germany",
       "identifier": "df_hauptkatalog_0084634",
       "isPartOf": {
-        "@id": "data/webapp/photos/"
+        "@id": "webapp/photos/"
       },
       "contentUrl": "http://www.deutschefotothek.de/documents/obj/80817531",
       "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/df_hauptkatalog_0084634/manifest.json",
@@ -473,7 +433,7 @@
       }
     },
     {
-      "@id": "data/webapp/photos/photo_0002.tiff",
+      "@id": "webapp/photos/photo_0002.tiff",
       "@type": [
         "File",
         "ImageObject"
@@ -485,7 +445,7 @@
       "spatialCoverage": "Dresden, Germany",
       "identifier": "df_hauptkatalog_0041697",
       "isPartOf": {
-        "@id": "data/webapp/photos/"
+        "@id": "webapp/photos/"
       },
       "contentUrl": "http://www.deutschefotothek.de/documents/obj/80817431",
       "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/df_hauptkatalog_0041697/manifest.json",
@@ -496,7 +456,7 @@
       }
     },
     {
-      "@id": "data/webapp/photos/photo_0003.tiff",
+      "@id": "webapp/photos/photo_0003.tiff",
       "@type": [
         "File",
         "ImageObject"
@@ -508,7 +468,7 @@
       "spatialCoverage": "Dresden, Germany",
       "identifier": "tu_kg_0189515",
       "isPartOf": {
-        "@id": "data/webapp/photos/"
+        "@id": "webapp/photos/"
       },
       "contentUrl": "http://www.deutschefotothek.de/documents/obj/90058526-tud",
       "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/tu_kg_0189515/manifest.json",
@@ -519,7 +479,7 @@
       }
     },
     {
-      "@id": "data/webapp/photos/photo_0004.tiff",
+      "@id": "webapp/photos/photo_0004.tiff",
       "@type": [
         "File",
         "ImageObject"
@@ -531,7 +491,7 @@
       "spatialCoverage": "Dresden, Germany",
       "identifier": "tu_kg_0189510",
       "isPartOf": {
-        "@id": "data/webapp/photos/"
+        "@id": "webapp/photos/"
       },
       "contentUrl": "http://www.deutschefotothek.de/documents/obj/90058521-tud",
       "sameAs": "https://iiif.arthistoricum.net/proxy/fotothek/tu_kg_0189510/manifest.json",
@@ -542,7 +502,7 @@
       }
     },
     {
-      "@id": "data/webapp/related_articles/article_0001.pdf",
+      "@id": "webapp/related_articles/article_0001.pdf",
       "@type": [
         "File",
         "CreativeWork"
@@ -550,11 +510,11 @@
       "name": "Zugehöriger Artikel 0001 (PDF/A-3)",
       "encodingFormat": "application/pdf",
       "isPartOf": {
-        "@id": "data/webapp/related_articles/"
+        "@id": "webapp/related_articles/"
       }
     },
     {
-      "@id": "data/webapp/related_articles/article_0002.pdf",
+      "@id": "webapp/related_articles/article_0002.pdf",
       "@type": [
         "File",
         "CreativeWork"
@@ -562,11 +522,11 @@
       "name": "Zugehöriger Artikel 0002 (PDF/A-3)",
       "encodingFormat": "application/pdf",
       "isPartOf": {
-        "@id": "data/webapp/related_articles/"
+        "@id": "webapp/related_articles/"
       }
     },
     {
-      "@id": "data/website/index.html",
+      "@id": "website/index.html",
       "@type": [
         "File",
         "CreativeWork"
@@ -574,11 +534,11 @@
       "name": "UrbanHistory4D – Startseite",
       "encodingFormat": "text/html",
       "isPartOf": {
-        "@id": "data/website/"
+        "@id": "website/"
       }
     },
     {
-      "@id": "data/website/about.html",
+      "@id": "website/about.html",
       "@type": [
         "File",
         "CreativeWork"
@@ -586,11 +546,11 @@
       "name": "Über das Projekt",
       "encodingFormat": "text/html",
       "isPartOf": {
-        "@id": "data/website/"
+        "@id": "website/"
       }
     },
     {
-      "@id": "data/website/contact.html",
+      "@id": "website/contact.html",
       "@type": [
         "File",
         "CreativeWork"
@@ -598,11 +558,11 @@
       "name": "Kontakt & Provenienz",
       "encodingFormat": "text/html",
       "isPartOf": {
-        "@id": "data/website/"
+        "@id": "website/"
       }
     },
     {
-      "@id": "data/website/explore4d.html",
+      "@id": "website/explore4d.html",
       "@type": [
         "File",
         "CreativeWork"
@@ -610,11 +570,11 @@
       "name": "Erklärseite 4D Browser (mit Link zur Emulation)",
       "encodingFormat": "text/html",
       "isPartOf": {
-        "@id": "data/website/"
+        "@id": "website/"
       }
     },
     {
-      "@id": "data/website/partners.html",
+      "@id": "website/partners.html",
       "@type": [
         "File",
         "CreativeWork"
@@ -622,11 +582,11 @@
       "name": "Projektpartner",
       "encodingFormat": "text/html",
       "isPartOf": {
-        "@id": "data/website/"
+        "@id": "website/"
       }
     },
     {
-      "@id": "data/website/publications.html",
+      "@id": "website/publications.html",
       "@type": [
         "File",
         "CreativeWork"
@@ -634,11 +594,11 @@
       "name": "Publikationen",
       "encodingFormat": "text/html",
       "isPartOf": {
-        "@id": "data/website/"
+        "@id": "website/"
       }
     },
     {
-      "@id": "data/website/workshop.html",
+      "@id": "website/workshop.html",
       "@type": [
         "File",
         "CreativeWork"
@@ -646,11 +606,11 @@
       "name": "Workshops",
       "encodingFormat": "text/html",
       "isPartOf": {
-        "@id": "data/website/"
+        "@id": "website/"
       }
     },
     {
-      "@id": "data/website/assets/images/image_0001.png",
+      "@id": "website/assets/images/image_0001.png",
       "@type": [
         "File",
         "ImageObject"
@@ -658,11 +618,11 @@
       "name": "Website-Bild 0001",
       "encodingFormat": "image/png",
       "isPartOf": {
-        "@id": "data/website/assets/images/"
+        "@id": "website/assets/images/"
       }
     },
     {
-      "@id": "data/website/assets/images/image_0002.png",
+      "@id": "website/assets/images/image_0002.png",
       "@type": [
         "File",
         "ImageObject"
@@ -670,20 +630,20 @@
       "name": "Website-Bild 0002",
       "encodingFormat": "image/png",
       "isPartOf": {
-        "@id": "data/website/assets/images/"
+        "@id": "website/assets/images/"
       }
     },
     {
-      "@id": "data/website/assets/video/subtitles.vtt",
+      "@id": "website/assets/video/subtitles.vtt",
       "@type": "File",
       "name": "Untertiteldatei Tutorial-Video",
       "encodingFormat": "text/vtt",
       "isPartOf": {
-        "@id": "data/website/assets/video/"
+        "@id": "website/assets/video/"
       }
     },
     {
-      "@id": "data/website/assets/video/tutorial_video.mkv",
+      "@id": "website/assets/video/tutorial_video.mkv",
       "@type": [
         "File",
         "MediaObject"
@@ -691,88 +651,7 @@
       "name": "Tutorial-Video zur Nutzung des 4D Browsers",
       "encodingFormat": "video/x-matroska",
       "isPartOf": {
-        "@id": "data/website/assets/video/"
-      }
-    },
-    {
-      "@id": "meta/rights.xml",
-      "@type": "File",
-      "name": "Rechtebeschreibung",
-      "encodingFormat": "application/xml",
-      "isPartOf": {
-        "@id": "meta/"
-      }
-    },
-    {
-      "@id": "meta/source_links.json",
-      "@type": "File",
-      "name": "Quellverweise (DOIs, URIs, SIP-IDs)",
-      "encodingFormat": "application/json",
-      "isPartOf": {
-        "@id": "meta/"
-      }
-    },
-    {
-      "@id": "meta/technical_metadata.xml",
-      "@type": "File",
-      "name": "Technische Metadaten (z. B. PREMIS)",
-      "encodingFormat": "application/xml",
-      "isPartOf": {
-        "@id": "meta/"
-      }
-    },
-    {
-      "@id": "bag-info.txt",
-      "@type": "File",
-      "name": "BagIt: bag-info",
-      "encodingFormat": "text/plain",
-      "isPartOf": {
-        "@id": "./"
-      }
-    },
-    {
-      "@id": "bagit.txt",
-      "@type": "File",
-      "name": "BagIt: bagit.txt",
-      "encodingFormat": "text/plain",
-      "isPartOf": {
-        "@id": "./"
-      }
-    },
-    {
-      "@id": "manifest-md5.txt",
-      "@type": "File",
-      "name": "MD5-Manifest data/",
-      "encodingFormat": "text/plain",
-      "isPartOf": {
-        "@id": "./"
-      }
-    },
-    {
-      "@id": "manifest-sha256.txt",
-      "@type": "File",
-      "name": "SHA256-Manifest data/",
-      "encodingFormat": "text/plain",
-      "isPartOf": {
-        "@id": "./"
-      }
-    },
-    {
-      "@id": "tagmanifest-md5.txt",
-      "@type": "File",
-      "name": "MD5-Manifest meta/ & Root",
-      "encodingFormat": "text/plain",
-      "isPartOf": {
-        "@id": "./"
-      }
-    },
-    {
-      "@id": "tagmanifest-sha256.txt",
-      "@type": "File",
-      "name": "SHA256-Manifest meta/ & Root",
-      "encodingFormat": "text/plain",
-      "isPartOf": {
-        "@id": "./"
+        "@id": "website/assets/video/"
       }
     },
     {
