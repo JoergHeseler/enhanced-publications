@@ -14,7 +14,7 @@
       "description": "Subset of the UrbanHistory4D project focusing on Dresden city. Contains 3D models, maps and referenced photos from the Deutsche Fotothek.",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "hasPart": [
-        { "@id": "index.html" },
+        { "@id": "data/website/index.html" },
         { "@id": "data/photos/photo_0001.tiff" },
         { "@id": "data/photos/photo_0002.tiff" },
         { "@id": "data/photos/photo_0003.tiff" },
