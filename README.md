@@ -30,11 +30,6 @@ The full SIP is located in:
  
 It includes the following **placeholder** components:
  
-### Semantic Documentation (core of this repository)
-`data/`
-- **`ro-crate-metadata.json`** – complete demonstration of RO-Crate 1.1 modelling  
-  describing the full SIP structure, preservation states, and interrelations.
- 
 ### Web Application (dummy content)
 `data/webapp/`
 - placeholder 3D building models (glTF + bin + textures)  
@@ -50,6 +45,11 @@ It includes the following **placeholder** components:
 - reduced and preservable static HTML5 version (structure only)  
 - placeholder images and video  
 - project description, partner, and workshop pages  
+ 
+### Semantic Documentation (core of this repository)
+`data/`
+- [**`ro-crate-metadata.json`**](./data/ro-crate-metadata.json) – complete demonstration of RO-Crate 1.1 modelling  
+  describing the full SIP structure, preservation states, and interrelations.
  
 ### Metadata
 `meta/`
