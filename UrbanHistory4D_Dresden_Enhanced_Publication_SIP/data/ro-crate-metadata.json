@@ -429,7 +429,10 @@
       "note": "Digitised 9x12cm glass negative, 600 dpi, 16 bit per channel, uncompressed TIFF with embedded ICC profile.",
       "preservationState": "preserved",
       "preservationInfo": {
-        "@id": "http://www.deutschefotothek.de"
+        "@id": "http://www.deutschefotothek.de",
+        "isil": "DE-2396",
+        "name": "SLUBArchiv.digital",
+        "identifier": "df_hauptkatalog_0084634_120000000000001"
       }
     },
     {
@@ -452,7 +455,10 @@
       "note": "Digitised 9x12cm glass negative, TIFF 16bit, 600 dpi, uncompressed, ICC profile embedded.",
       "preservationState": "preserved",
       "preservationInfo": {
-        "@id": "http://www.deutschefotothek.de"
+        "@id": "http://www.deutschefotothek.de",
+        "isil": "DE-2396",
+        "name": "SLUBArchiv.digital",
+        "identifier": "df_hauptkatalog_0041697_120000000000001"
       }
     },
     {
@@ -475,7 +481,10 @@
       "note": "Born-digital photograph to be migrated to archival TIFF format prior to ingestion.",
       "preservationState": "pending",
       "preservationInfo": {
-        "@id": "http://www.deutschefotothek.de"
+        "@id": "http://www.deutschefotothek.de",
+        "isil": "DE-2396",
+        "name": "SLUBArchiv.digital",
+        "identifier": "tu_kg_0189515_120000000000002"
       }
     },
     {
@@ -498,7 +507,10 @@
       "note": "Born-digital photograph to be migrated to archival TIFF format prior to ingestion.",
       "preservationState": "pending",
       "preservationInfo": {
-        "@id": "http://www.deutschefotothek.de"
+        "@id": "http://www.deutschefotothek.de",
+        "isil": "DE-2396",
+        "name": "SLUBArchiv.digital",
+        "identifier": "tu_kg_0189510_120000000000002"
       }
     },
     {
